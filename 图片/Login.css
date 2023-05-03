@@ -1,0 +1,76 @@
+﻿    * {
+        margin:0px;
+        padding:0px;
+    }
+    body {
+        background-image:url("..\image\bg.jpg");
+    }
+    div {
+        width:500px;
+        margin:300px auto;
+        border:dashed 5px orange;
+    }
+    table {
+        width:100%;
+        font-size:24px;
+        border:dashed 5px yellow;
+    }
+        tr {
+           float:left;
+           margin-left:50px;
+           margin-top:15px;
+           margin-bottom:15px;
+        }
+        table .password{
+            margin-left:74px;
+        }
+        .code input {
+            width:123px;
+            margin-right:25px;
+        }
+         input {
+        margin-left:15px;
+        float:left;
+        width:250px;
+        height:33px;
+        font-size:20px;
+    }
+    .button {
+        margin:0px auto;
+        width:100%;
+    }
+    .button input {
+        width:100px;
+        height:35px;
+        text-align:center;
+        line-height:35px;
+        font-size:24px;
+        margin-left:70px;
+        background-repeat:no-repeat;
+    }
+     .button .Login {
+            background-image: url("..\image\Login2.jpg");
+            background-size:100px;
+        }
+        .button .Login:hover {
+            background-image:url("..\image\Login.jpg");
+            background-size:100px;
+        }
+         .button .reset {
+            background-image: url("..\image\reset.jpg");
+            color:white;
+            font-size:14px;
+        }
+        .button .reset:hover {
+            color:red;
+            font-size:24px;
+           font-weight:300;
+        }
+        .button .zhuce {
+            background-image: url("..\image\zhuce.jpg");
+            background-size:100px;
+        }
+        .button .zhuce:hover {
+            background-image:url("..\image\zhuce2.jpg");
+            background-size:100px;
+        }
